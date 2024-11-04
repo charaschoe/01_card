@@ -1,0 +1,58 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+.card {
+	width: 300px;
+	margin: 20px auto;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.card-header {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: #4caf50; /* Grüne Farbe wie im Screenshot */
+	color: white;
+	padding: 10px 0;
+}
+
+.card-image {
+	width: 100%;
+	height: 150px;
+    background: url("der-komodowaran-0629da3f-903a-4086-b4de-238c20b257aa-882732593.jpg") no-repeat center center; /* Bild des Komodowarans */
+	background-size: cover;
+}
+
+.card-fact {
+	padding: 15px;
+	font-size: 1em;
+	color: #333;
+	text-align: center;
+}
+
+.card-parameters {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.card-parameters td {
+	padding: 10px;
+	text-align: left;
+}
+
+.card-parameters td img {
+	width: 20px; /* Icons für die Parameter */
+	vertical-align: middle;
+}
+
+.card-parameters tr:nth-child(even) {
+	background-color: #f2f2f2; /* Abwechselnde Farben für die Zeilen */
+}
